@@ -10,23 +10,29 @@ public class Dice : MonoBehaviour
     private bool keypressed = false;
     
 
-    private int RandomDice()
+    public int RandomDice()
     {
         Actualface = Random.Range(1, faceNumber+1);
         Debug.Log(Actualface);
+        LaunchDice.Invoke(Actualface);
+        return Actualface;
+    }
+
+    public int GetDiceResult()
+    {
         return Actualface;
     }
     
-    void Update()
-    {
-        
-        
-            if (Keyboard.current.spaceKey.wasPressedThisFrame)
-            {
-                LaunchDice.Invoke(RandomDice());
-                keypressed = true;
-            }
-        
-    }
+    // void Update()
+    // {
+    //     
+    //     
+    //         if (Keyboard.current.spaceKey.wasPressedThisFrame)
+    //         {
+    //             LaunchDice.Invoke(RandomDice());
+    //             keypressed = true;
+    //         }
+    //     
+    // }
 
 }

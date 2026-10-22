@@ -4,24 +4,13 @@ using UnityEngine.Events;
 
 public class Case : MonoBehaviour
 {
-    [SerializeField] private UnityEvent LaunchEvent;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] public UnityEvent LaunchEvent;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerStay(Collider other)
     {
         if (other.GetComponent<Player>() != null)
         {
-            Debug.Log("now");
+            //Debug.Log("now");
             LaunchEvent.Invoke();
         }
     }

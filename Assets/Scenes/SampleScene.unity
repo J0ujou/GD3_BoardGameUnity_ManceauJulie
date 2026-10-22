@@ -705,7 +705,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -782,6 +782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 117ccdb8017868647bcaea8c40f5e986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Malus
+  steps: -2
 --- !u!114 &575869875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -796,7 +797,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Case
   LaunchEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 575869874}
+        m_TargetAssemblyTypeName: Malus, Assembly-CSharp
+        m_MethodName: Apply
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1623708962}
+          m_ObjectArgumentAssemblyTypeName: Player, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &588389572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1737,7 +1750,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1814,6 +1827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 117ccdb8017868647bcaea8c40f5e986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Malus
+  steps: -2
 --- !u!114 &1510131576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1828,7 +1842,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Case
   LaunchEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510131575}
+        m_TargetAssemblyTypeName: Malus, Assembly-CSharp
+        m_MethodName: Apply
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1623708962}
+          m_ObjectArgumentAssemblyTypeName: Player, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1558570974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1972,6 +1998,7 @@ GameObject:
   - component: {fileID: 1623708959}
   - component: {fileID: 1623708958}
   - component: {fileID: 1623708962}
+  - component: {fileID: 1623708963}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2086,11 +2113,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15f3b8cbc9a7228498ec99ff13f3e065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  ActualPosition: 0
+  data: {fileID: 11400000, guid: aad8f8460137eea4ebbe2926989be0ab, type: 2}
   OldPosition: 0
   NewPosition: 0
-  NumberIndexOfCase: 15
   board: {fileID: 1180819406}
+  dice: {fileID: 135776122}
+  speed: 3
+--- !u!54 &1623708963
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623708957}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1677688894
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,6 +2924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d0f757072e7c54dbb8b199e8765aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bonus
+  steps: 2
 --- !u!114 &2023276440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2884,13 +2940,13 @@ MonoBehaviour:
   LaunchEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1623708962}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
-        m_MethodName: Move
-        m_Mode: 3
+      - m_Target: {fileID: 2023276439}
+        m_TargetAssemblyTypeName: Bonus, Assembly-CSharp
+        m_MethodName: Apply
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1623708962}
+          m_ObjectArgumentAssemblyTypeName: Player, Assembly-CSharp
           m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2947,7 +3003,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -3024,6 +3080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d0f757072e7c54dbb8b199e8765aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bonus
+  steps: 2
 --- !u!114 &2141034753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3039,13 +3096,13 @@ MonoBehaviour:
   LaunchEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1623708962}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
-        m_MethodName: Move
-        m_Mode: 3
+      - m_Target: {fileID: 2141034752}
+        m_TargetAssemblyTypeName: Bonus, Assembly-CSharp
+        m_MethodName: Apply
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1623708962}
+          m_ObjectArgumentAssemblyTypeName: Player, Assembly-CSharp
           m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 

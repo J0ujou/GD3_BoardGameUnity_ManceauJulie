@@ -3,16 +3,10 @@ using UnityEngine.Events;
 
 public class Bonus : MonoBehaviour
 {
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] int steps = 2;
 
-    // Update is called once per frame
-    void Update()
+    public void Apply(Player player)
     {
-        
+        player.Move(steps);
     }
 }
