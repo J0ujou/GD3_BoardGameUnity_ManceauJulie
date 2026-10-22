@@ -409,6 +409,7 @@ GameObject:
   - component: {fileID: 406093005}
   - component: {fileID: 406093004}
   - component: {fileID: 406093003}
+  - component: {fileID: 406093006}
   m_Layer: 0
   m_Name: Case9
   m_TagString: Untagged
@@ -511,6 +512,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406093001}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &406093006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406093001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,6 +667,7 @@ GameObject:
   - component: {fileID: 575869872}
   - component: {fileID: 575869871}
   - component: {fileID: 575869874}
+  - component: {fileID: 575869875}
   m_Layer: 0
   m_Name: Case7
   m_TagString: Untagged
@@ -765,6 +782,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 117ccdb8017868647bcaea8c40f5e986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Malus
+--- !u!114 &575869875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575869869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &588389572
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,6 +809,7 @@ GameObject:
   - component: {fileID: 588389576}
   - component: {fileID: 588389575}
   - component: {fileID: 588389574}
+  - component: {fileID: 588389577}
   m_Layer: 0
   m_Name: Case8
   m_TagString: Untagged
@@ -879,6 +912,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588389572}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &588389577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588389572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &599549324
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,6 +939,7 @@ GameObject:
   - component: {fileID: 599549328}
   - component: {fileID: 599549327}
   - component: {fileID: 599549326}
+  - component: {fileID: 599549329}
   m_Layer: 0
   m_Name: Case1
   m_TagString: Untagged
@@ -993,6 +1042,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599549324}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &599549329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599549324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &693369521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,6 +1069,7 @@ GameObject:
   - component: {fileID: 693369525}
   - component: {fileID: 693369524}
   - component: {fileID: 693369523}
+  - component: {fileID: 693369526}
   m_Layer: 0
   m_Name: Case4
   m_TagString: Untagged
@@ -1107,6 +1172,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 693369521}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &693369526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693369521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,23 +1362,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802a935c50188c142a53ae69193cd950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Board
-  spacePositions:
-  - {fileID: 1882621691}
-  - {fileID: 599549325}
-  - {fileID: 2141034748}
-  - {fileID: 1264545282}
-  - {fileID: 693369522}
-  - {fileID: 1697026495}
-  - {fileID: 1720803035}
-  - {fileID: 575869870}
-  - {fileID: 588389573}
-  - {fileID: 406093002}
-  - {fileID: 2023276435}
-  - {fileID: 1735995088}
-  - {fileID: 1677688895}
-  - {fileID: 1305071544}
-  - {fileID: 1510131571}
-  - {fileID: 1558570975}
+  Cases:
+  - {fileID: 1882621690}
+  - {fileID: 599549324}
+  - {fileID: 2141034747}
+  - {fileID: 1264545281}
+  - {fileID: 693369521}
+  - {fileID: 1697026494}
+  - {fileID: 1720803034}
+  - {fileID: 575869869}
+  - {fileID: 588389572}
+  - {fileID: 406093001}
+  - {fileID: 2023276434}
+  - {fileID: 1735995087}
+  - {fileID: 1677688894}
+  - {fileID: 1305071543}
+  - {fileID: 1510131570}
+  - {fileID: 1558570974}
 --- !u!1 &1187040701
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,6 +1438,7 @@ GameObject:
   - component: {fileID: 1264545285}
   - component: {fileID: 1264545284}
   - component: {fileID: 1264545283}
+  - component: {fileID: 1264545286}
   m_Layer: 0
   m_Name: Case3
   m_TagString: Untagged
@@ -1460,6 +1541,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264545281}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1264545286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264545281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1305071543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,6 +1568,7 @@ GameObject:
   - component: {fileID: 1305071547}
   - component: {fileID: 1305071546}
   - component: {fileID: 1305071545}
+  - component: {fileID: 1305071548}
   m_Layer: 0
   m_Name: Case13
   m_TagString: Untagged
@@ -1574,6 +1671,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305071543}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1305071548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305071543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1510131570
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,6 +1699,7 @@ GameObject:
   - component: {fileID: 1510131573}
   - component: {fileID: 1510131572}
   - component: {fileID: 1510131575}
+  - component: {fileID: 1510131576}
   m_Layer: 0
   m_Name: Case14
   m_TagString: Untagged
@@ -1701,6 +1814,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 117ccdb8017868647bcaea8c40f5e986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Malus
+--- !u!114 &1510131576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510131570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1558570974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,6 +1841,7 @@ GameObject:
   - component: {fileID: 1558570978}
   - component: {fileID: 1558570977}
   - component: {fileID: 1558570976}
+  - component: {fileID: 1558570979}
   m_Layer: 0
   m_Name: Case15
   m_TagString: Untagged
@@ -1815,6 +1944,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558570974}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1558570979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558570974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1623708957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1959,6 +2103,7 @@ GameObject:
   - component: {fileID: 1677688898}
   - component: {fileID: 1677688897}
   - component: {fileID: 1677688896}
+  - component: {fileID: 1677688899}
   m_Layer: 0
   m_Name: Case12
   m_TagString: Untagged
@@ -2061,6 +2206,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677688894}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1677688899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677688894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1697026494
 GameObject:
   m_ObjectHideFlags: 0
@@ -2073,6 +2233,7 @@ GameObject:
   - component: {fileID: 1697026498}
   - component: {fileID: 1697026497}
   - component: {fileID: 1697026496}
+  - component: {fileID: 1697026499}
   m_Layer: 0
   m_Name: Case5
   m_TagString: Untagged
@@ -2175,6 +2336,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697026494}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1697026499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697026494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1720803034
 GameObject:
   m_ObjectHideFlags: 0
@@ -2187,6 +2363,7 @@ GameObject:
   - component: {fileID: 1720803038}
   - component: {fileID: 1720803037}
   - component: {fileID: 1720803036}
+  - component: {fileID: 1720803039}
   m_Layer: 0
   m_Name: Case6
   m_TagString: Untagged
@@ -2289,6 +2466,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720803034}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1720803039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720803034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1735995087
 GameObject:
   m_ObjectHideFlags: 0
@@ -2301,6 +2493,7 @@ GameObject:
   - component: {fileID: 1735995091}
   - component: {fileID: 1735995090}
   - component: {fileID: 1735995089}
+  - component: {fileID: 1735995092}
   m_Layer: 0
   m_Name: Case11
   m_TagString: Untagged
@@ -2403,6 +2596,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735995087}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1735995092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735995087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1882621690
 GameObject:
   m_ObjectHideFlags: 0
@@ -2415,6 +2623,7 @@ GameObject:
   - component: {fileID: 1882621694}
   - component: {fileID: 1882621693}
   - component: {fileID: 1882621692}
+  - component: {fileID: 1882621695}
   m_Layer: 0
   m_Name: CaseStart
   m_TagString: Untagged
@@ -2517,6 +2726,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882621690}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1882621695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882621690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2023276434
 GameObject:
   m_ObjectHideFlags: 0
@@ -2530,6 +2754,7 @@ GameObject:
   - component: {fileID: 2023276437}
   - component: {fileID: 2023276436}
   - component: {fileID: 2023276439}
+  - component: {fileID: 2023276440}
   m_Layer: 0
   m_Name: Case10
   m_TagString: Untagged
@@ -2644,6 +2869,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d0f757072e7c54dbb8b199e8765aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bonus
+--- !u!114 &2023276440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023276434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1623708962}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Move
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2141034747
 GameObject:
   m_ObjectHideFlags: 0
@@ -2657,6 +2909,7 @@ GameObject:
   - component: {fileID: 2141034750}
   - component: {fileID: 2141034749}
   - component: {fileID: 2141034752}
+  - component: {fileID: 2141034753}
   m_Layer: 0
   m_Name: Case2
   m_TagString: Untagged
@@ -2771,6 +3024,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d0f757072e7c54dbb8b199e8765aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bonus
+--- !u!114 &2141034753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141034747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b7729c849387042973e4c01b252b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Case
+  LaunchEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1623708962}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Move
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

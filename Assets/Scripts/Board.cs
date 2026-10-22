@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Board : MonoBehaviour
 {
-    public List<Transform> spacePositions;
+    public List<GameObject> Cases;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

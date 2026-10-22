@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        transform.position= board.spacePositions[ActualPosition].position;
+        transform.position= (board.Cases[ActualPosition].transform.position)+ new Vector3(0,1f,0);
     }
     
     public void Move(int number)
@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
         NewPosition += number;
         if(NewPosition> NumberIndexOfCase)
         {
-            //objectif avancer en reculant
+            //objectif reculer
             Debug.Log("stop");
             int TooMuch = NewPosition - NumberIndexOfCase;
             NewPosition = NumberIndexOfCase - TooMuch;
@@ -44,8 +44,6 @@ public class Player : MonoBehaviour
             PlayerMove(ActualPosition, NewPosition);
             OldPosition = ActualPosition;
             ActualPosition = NewPosition;
-            
-            
         }
         
 
@@ -60,7 +58,7 @@ public class Player : MonoBehaviour
             // le pion avance case par case jusqu'à celle voulue
             for (int i = start + 1; i <= end; i++)
             {
-                Vector3 goal = board.spacePositions[i].position;
+                Vector3 goal = board.Cases[i].transform.position;
                 //tant que le pion n'est pas à peu près sur la case voulu,il avance
                 while (Vector3.Distance(goal, transform.position) > 0.01f)
                 {
