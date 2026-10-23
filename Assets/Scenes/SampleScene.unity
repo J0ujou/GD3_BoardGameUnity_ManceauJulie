@@ -167,6 +167,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _player: {fileID: 1623708962}
 --- !u!65 &135776123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2119,6 +2120,7 @@ MonoBehaviour:
   board: {fileID: 1180819406}
   dice: {fileID: 135776122}
   speed: 3
+  ismoving: 0
 --- !u!54 &1623708963
 Rigidbody:
   m_ObjectHideFlags: 0

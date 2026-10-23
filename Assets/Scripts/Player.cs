@@ -22,22 +22,22 @@ public class Player : MonoBehaviour
     [SerializeField] float speed = 3f;
     private Vector3 offset = new Vector3(0,1f,0);
     private int NumberIndexOfCase => board.Cases.Count - 1;
-    private bool ismoving = false;
+    public bool ismoving = false;
 
     private void Start()
     {
         transform.position = (board.Cases[ActualPosition].transform.position) + offset;
     }
     
-
-    private void Update()
-    {
-        if (ismoving) return;
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
-        {
-            dice.RandomDice();
-        }
-    }
+// input dans le player
+    // private void Update()
+    // {
+    //     if (ismoving) return;
+    //     if (Keyboard.current.spaceKey.wasPressedThisFrame)
+    //     {
+    //         dice.RandomDice();
+    //     }
+    // }
     
     public void Move(int number)
     {

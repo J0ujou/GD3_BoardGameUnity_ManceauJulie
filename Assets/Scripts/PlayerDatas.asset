@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PlayerDatas
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDatas
   ActualPlayer: 0
-  positionPlayer: 0c000000
+  positionPlayer: 00000000
